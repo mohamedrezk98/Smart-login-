@@ -1,0 +1,79 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="refresh">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>First chapter</title>
+    <meta name="description" content="An interactive getting started guide for Brackets.">
+    <link rel="stylesheet" href="bootsrap5/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/test.css">
+</head>
+
+<body>
+    <div class="container">
+    <div class="head m-auto  w-50 my-5 shadow-lg p-5  bg">
+            <h2 class="text-info text-center ">Smart Login System</h2>
+
+
+            <div class="mb-3">
+
+                <input id="name" type="text" class="form-control" placeholder="enter your name">
+                <p id="massege" class="alert text-danger d-none   m-0 p-0  text-center  "> enter at least one number or
+                    one
+                    character
+                </p>
+            </div>
+            <div class="mb-3">
+
+                <input id="email" type="email" class="form-control " placeholder="enter your email">
+                <div id="mail" class="alert text-danger d-none  m-0 p-0 text-center "> you must enter like that
+                    name@exmple.com </div>
+            </div>
+            <div class="mb-3">
+                <input id="password" type="password" class="form-control" placeholder="enter your password">
+
+                <p id="pass" class="alert text-danger d-none m-0 p-0  text-center "> password must contain at least 4
+                    character </p>
+            </div>
+
+
+
+
+            <p class="text-center text-danger   d-none   fs-5   " id="par"> </p>
+            <p class="text-center text-success  d-none   fs-5   " id="suss"> good</p>
+
+            <div class="click  text-center ">
+                <input id="btn" class="btn text-center " type="submit" onclick="getInputs()" value="Sign Up">
+            </div>
+            <p class="text-center text-success  d-none   fs-5   " id="suss"> Good job!!!</p>
+
+            <div class="end text-center my-3 ">
+                <span class="text-info  ">You have an account?</span>
+                <a href="sign.html"
+                    class="text-decoration-none text-success-emphasis bg-success-subtle rounded-2 p-1  ">signin</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+    <script src="bootsrap5/bootstrap.bundle.min.js"></script>
+    <script src="main.js">
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="refresh">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>First chapter</title>
+    <meta name="description" content="An interactive getting started guide for Brackets.">
+    <link rel="stylesheet" href="bootsrap5/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/test.css">
+</head>
+
+<body>
+   <div class="container">
+    <div class="head m-auto  w-50 my-5 shadow-lg p-5  bg">
+        <h2 class="text-info text-center "> Login  بس </h2>
+
+
+        <input id="s-email" type="email" class="form-control my-3 " placeholder="enter your email">
+
+
+        
+        <input id="s-password" type="password" class="form-control my-3" placeholder="enter your password">
+        <p class="text-center text-danger   d-none   fs-5   " id="sign">ALL Required  !!</p>
+        <p class="text-center text-danger   d-none   fs-5   " id="incorrect">Invlaid  !!</p>
+
+        <div class="click  text-center ">
+                 <input  onclick="sined()"  id ="btn" class="btn text-center " type="submit" value="Sign IN"
+            class="form-control  text-info  border-info ">
+        </div>
+      
+        <div class="end text-center my-3 ">
+            <span class="text-info  ">You  don't have an account?</span>
+            <a href="index.html" class="text-decoration-none text-success-emphasis bg-success-subtle rounded-2 p-1">sign up</a>
+        </div>
+
+    </div>
+
+
+   </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+    <script src="bootsrap5/bootstrap.bundle.min.js"></script>
+    <script src="login.js">
+
+    </script>
+</body>
+
+</html>
